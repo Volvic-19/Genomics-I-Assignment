@@ -38,20 +38,9 @@
 * www.reactome.org
 * www.genome.jp/kegg/
 
-## Reference Proteomes Species
-D. sechellia:
-* https://www.uniprot.org/proteomes/UP000001292
+## Links for Species
 
-D. yakuba:
-* https://www.uniprot.org/proteomes/UP000002282
-
-D.pseudoobscura:
-* https://www.uniprot.org/proteomes/UP000001819
-
-D. mojavensis
-* https://www.uniprot.org/proteomes/UP000009192
-
-| Species         | Reference Proteome                            |
+| Species         | UniProt Reference Proteome                    |
 | --------------- | --------------------------------------------- | 
 | D. sechelli     | https://www.uniprot.org/proteomes/UP000001292 |
 | D. yakuba       | https://www.uniprot.org/proteomes/UP000002282 |
