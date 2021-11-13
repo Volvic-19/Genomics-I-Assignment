@@ -52,4 +52,5 @@
 ## Useful Linux Commands
 ```
 cd /local/data/public/Genomics_1/assignments/assignment_2
+./local/data/public/Genomics 1/programs/[BLAST,genscan,HMMer]
 ```
