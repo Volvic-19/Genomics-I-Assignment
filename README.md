@@ -50,7 +50,7 @@
 <br>
 
 ## Useful Linux Commands
-Assignment directory
+Local databases directory
 ```
 cd /local/data/public/Genomics_1/assignments/assignment_2
 ```
