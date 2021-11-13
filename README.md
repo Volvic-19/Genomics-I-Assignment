@@ -50,7 +50,11 @@
 <br>
 
 ## Useful Linux Commands
+Assignment directory
 ```
 cd /local/data/public/Genomics_1/assignments/assignment_2
-./local/data/public/Genomics 1/programs/[BLAST,genscan,HMMer]
+```
+Executables directory
+```
+./local/data/public/Genomics_1/programs/[BLAST,genscan,HMMer]
 ```
