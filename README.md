@@ -57,6 +57,6 @@ cd /local/data/public/Genomics_1/assignments/assignment_2
 #### HMMER
 ```
 cd /local/data/public/Genomics_1/programs/hmmer-3.3/bin/bin
-hmmsearch /local/data/public/Genomics_1/assignments/assignment_2/pfam_database/Pfam-A.hmm /home/tw556/Documents/Genomics_1/Assignment_2/results1571.fa 
+hmmsearch /local/data/public/Genomics_1/assignments/assignment_2/pfam_database/Pfam-A.hmm /home/tw556/Documents/Genomics_1/Assignment_2/results1571.fa > /home/tw556/Documents/Genomics_1/Assignment_2/hmmer_out.txt
 
 ```
