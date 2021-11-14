@@ -63,8 +63,16 @@ Navigate to where HMMER programs are installed
 ```
 cd /local/data/public/Genomics_1/programs/hmmer-3.3/bin/bin
 ```
-Run HMMER on each fly database, e.g. for `drosophila_mojavensis.fasta`
+Run HMMER on each fly database
 ```
-hmmsearch /local/data/public/Genomics_1/assignments/assignment_2/pfam_database/Pfam-A.hmm /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/drosophila_mojavensis.fasta > /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/drosophila_mojavensis_hmmer.txt
+hmmsearch /local/data/public/Genomics_1/assignments/assignment_2/pfam_database/Pfam-A.hmm /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/drosophila_mojavensis.fasta > /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/mojavensis_hmmer.txt
 ```
-
+```
+hmmsearch /local/data/public/Genomics_1/assignments/assignment_2/pfam_database/Pfam-A.hmm /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/drosophila_pseudoobscura_proteins.fasta > /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/pseudoobscura_hmmer.txt
+```
+```
+hmmsearch /local/data/public/Genomics_1/assignments/assignment_2/pfam_database/Pfam-A.hmm /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/drosophila_yakuba_proteins.fasta > /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/yakuba_hmmer.txt
+```
+```
+hmmsearch /local/data/public/Genomics_1/assignments/assignment_2/pfam_database/Pfam-A.hmm /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/drosophila_sechellia.fasta > /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/sechellia_hmmer.txt
+```
