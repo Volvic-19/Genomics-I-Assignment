@@ -60,3 +60,14 @@ Executables directory
 ```
 ## Manuals
 * Genscan: http://web.mit.edu/seven/doc/genscan/genscan.txt
+
+## Code usage
+Set SPECIES variable in batch_genscan.sh to "AAKO01", then run the following
+```
+mkdir AAKO01; cd AAKO01
+wget ftp://ftp.ebi.ac.uk/pub/databases/ena/wgs/public/aak/AAKO01.fasta.gz
+gunzip AAKO01.fasta.gz
+fastasplit AAKO01.fasta . -c 100
+cd ..
+./batch_genscan.sh
+```
