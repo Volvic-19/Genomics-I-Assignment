@@ -54,9 +54,17 @@
 cd /local/data/public/Genomics_1/assignments/assignment_2
 ```
 
-#### HMMER
+## 1.2.2. HMMER
+HMMER tutorials:
+* https://bi.snu.ac.kr/Courses/bio02/HMMER_tutorial.pdf
+* http://eddylab.org/software/hmmer3/3.1b2/Userguide.pdf
+
+Navigate to where HMMER programs are installed
 ```
 cd /local/data/public/Genomics_1/programs/hmmer-3.3/bin/bin
-hmmsearch /local/data/public/Genomics_1/assignments/assignment_2/pfam_database/Pfam-A.hmm /home/tw556/Documents/Genomics_1/Assignment_2/results1571.fa > /home/tw556/Documents/Genomics_1/Assignment_2/hmmer_out.txt
-
 ```
+Run HMMER on each fly database, e.g. for `drosophila_mojavensis.fasta`
+```
+hmmsearch /local/data/public/Genomics_1/assignments/assignment_2/pfam_database/Pfam-A.hmm /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/drosophila_mojavensis.fasta > /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/drosophila_mojavensis_hmmer.txt
+```
+
