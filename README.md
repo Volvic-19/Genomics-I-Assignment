@@ -58,3 +58,5 @@ Executables directory
 ```
 ./local/data/public/Genomics_1/programs/[BLAST,genscan,HMMer]
 ```
+## Manuals
+* Genscan: http://web.mit.edu/seven/doc/genscan/genscan.txt
