@@ -50,9 +50,18 @@
 <br>
 
 ## Useful Linux Commands
+Local databases directory
 ```
 cd /local/data/public/Genomics_1/assignments/assignment_2
 ```
+Executables directory
+```
+./local/data/public/Genomics_1/programs/[BLAST,genscan,HMMer]
+```
+## 1.1.2 Genscan
+Genscan manual:
+* http://web.mit.edu/seven/doc/genscan/genscan.txt
+
 
 ## 1.2.2. HMMER
 HMMER tutorials:
@@ -76,3 +85,5 @@ hmmsearch /local/data/public/Genomics_1/assignments/assignment_2/pfam_database/P
 ```
 hmmsearch /local/data/public/Genomics_1/assignments/assignment_2/pfam_database/Pfam-A.hmm /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/drosophila_sechellia.fasta > /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/sechellia_hmmer.txt
 ```
+=======
+
