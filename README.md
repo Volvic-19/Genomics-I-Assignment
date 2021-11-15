@@ -58,6 +58,32 @@ Executables directory
 ```
 ./local/data/public/Genomics_1/programs/[BLAST,genscan,HMMer]
 ```
-## Manuals
-* Genscan: http://web.mit.edu/seven/doc/genscan/genscan.txt
+## 1.1.2 Genscan
+Genscan manual:
+* http://web.mit.edu/seven/doc/genscan/genscan.txt
 
+
+## 1.2.2. HMMER
+HMMER tutorials:
+* https://bi.snu.ac.kr/Courses/bio02/HMMER_tutorial.pdf
+* http://eddylab.org/software/hmmer3/3.1b2/Userguide.pdf
+
+Navigate to where HMMER programs are installed
+```
+cd /local/data/public/Genomics_1/programs/hmmer-3.3/bin/bin
+```
+Run HMMER on each fly database
+```
+hmmsearch /local/data/public/Genomics_1/assignments/assignment_2/pfam_database/Pfam-A.hmm /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/drosophila_mojavensis.fasta > /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/mojavensis_hmmer.txt
+```
+```
+hmmsearch /local/data/public/Genomics_1/assignments/assignment_2/pfam_database/Pfam-A.hmm /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/drosophila_pseudoobscura_proteins.fasta > /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/pseudoobscura_hmmer.txt
+```
+```
+hmmsearch /local/data/public/Genomics_1/assignments/assignment_2/pfam_database/Pfam-A.hmm /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/drosophila_yakuba_proteins.fasta > /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/yakuba_hmmer.txt
+```
+```
+hmmsearch /local/data/public/Genomics_1/assignments/assignment_2/pfam_database/Pfam-A.hmm /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/drosophila_sechellia.fasta > /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/sechellia_hmmer.txt
+```
+PFAM 
+pfam2go.tab*
