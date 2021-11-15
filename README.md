@@ -85,5 +85,5 @@ hmmsearch /local/data/public/Genomics_1/assignments/assignment_2/pfam_database/P
 ```
 hmmsearch /local/data/public/Genomics_1/assignments/assignment_2/pfam_database/Pfam-A.hmm /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/drosophila_sechellia.fasta > /home/tw556/Documents/Genomics_1/Assignment_2/Proteins/sechellia_hmmer.txt
 ```
-=======
-
+PFAM 
+pfam2go.tab*
