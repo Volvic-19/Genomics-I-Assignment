@@ -1,3 +1,5 @@
+# 1.1.1 Annotation by alignment
+Align the _D. melanogaster_ transcripts and proteins to your species genome, e.g. using blastn/x.                                                                                                                                                                                                                                                                   <br> 
 
 # Steps to produce outputs 
 Using the example of _D. sechilis_ or AAKO01
