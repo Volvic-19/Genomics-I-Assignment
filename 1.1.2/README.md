@@ -1,3 +1,6 @@
+# 1.1.2 Annotation using probabilistic model                                                                                                                                   
+Annotate the genome using a probabilistic model e.g. genscan                                                                                                                                                                                                                                                                                                       <br>  
+
 # To generate the input files for genscan:
 
 1. Download genomes from links provided in links.txt
